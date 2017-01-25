@@ -8,7 +8,7 @@ mailgun_domain_name <- function() {
 
 get_option <- function(opt) {
   opt_value <- getOption(opt)
-  if (!is.null(opt_value) || !nzchar(opt_value)) {
+  if (is.null(opt_value) || !nzchar(opt_value)) {
     stop("You must set option ", sQuote(opt), " in order to use mailgunner.")
   }
   opt_value
