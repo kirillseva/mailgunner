@@ -2,7 +2,7 @@ Package: mailgunner
 Type: Package
 Title: mailgunner (http://github.com/kirillseva/mailgunner)
 Description: Send emails from R using mailgun.
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Author: Kirill Sevastyanenko <kirillseva@gmail.com>
 Maintainer: Kirill Sevastyanenko <kirillseva@gmail.com>
 Authors@R: c(person("Kirill", "Sevastyanenko",
