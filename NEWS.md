@@ -1,3 +1,5 @@
-# Version 0.0.0.9000
+# Version 0.0.0.9002
+- Use environment variables alongside R options.
 
-  * The initial creation of the package.
+# Version 0.0.0.9000
+- The initial creation of the package.
